@@ -8,7 +8,7 @@ class ClassArm extends StudentClasses{
 	public $table="sms_classarm";
 	public $query;
 	
-	function class_arms($class_arm_code, $class_arm_name='',$class_arm_status='ACTIVE'){
+	function class_arms($class_arm_code, $class_arm_name='', $class_arm_status='ACTIVE'){
 		$this->class_arm_code=$class_arm_code;
 		$this->class_arm_name=$class_arm_name;
 		$this->class_arm_status=$class_arm_status;
@@ -31,7 +31,7 @@ class ClassArm extends StudentClasses{
                                 
                                 $output.='</select>';	
 		 
-		 return $output;	
+		                      return $output;	
 			}
 			
 		
